@@ -1,9 +1,33 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Locations\farmField.png" />
+    <None Remove="Images\Locations\farmhouse.png" />
+    <None Remove="Images\Locations\herbalistGarden.png" />
+    <None Remove="Images\Locations\herbalistHut.png" />
+    <None Remove="Images\Locations\home.png" />
+    <None Remove="Images\Locations\spiderForest.png" />
+    <None Remove="Images\Locations\townGate.png" />
+    <None Remove="Images\Locations\townSquare.png" />
+    <None Remove="Images\Locations\trader.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\farmField.png" />
+    <Resource Include="Images\Locations\farmhouse.png" />
+    <Resource Include="Images\Locations\herbalistGarden.png" />
+    <Resource Include="Images\Locations\herbalistHut.png" />
+    <Resource Include="Images\Locations\home.png" />
+    <Resource Include="Images\Locations\spiderForest.png" />
+    <Resource Include="Images\Locations\townGate.png" />
+    <Resource Include="Images\Locations\townSquare.png" />
+    <Resource Include="Images\Locations\trader.png" />
+  </ItemGroup>
 
 </Project>
