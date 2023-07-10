@@ -18,8 +18,8 @@ namespace Engine.Models
                 YCoordinate = yCoordinate,
                 Name = name,
                 Description = description,
-                ImageName = imageName
-            };
+                ImageName = string.Format("pack://application:,,,/Engine;component/Images/Locations/{0}", imageName)
+        };
             _locations.Add(loc);
         }
 
